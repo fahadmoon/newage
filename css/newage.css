@@ -1293,3 +1293,20 @@ strong {
 .active {
   color:   var(--primary-color ) !important;
 }
+
+
+.space-width{
+    margin-top: 18px !important;
+   
+}
+
+
+@media screen and (max-width: 991px) {
+  .space-width{
+    margin-top: 0 !important;
+
+}
+.skill{
+  padding-top: 1.5rem !important;
+}
+}
