@@ -740,9 +740,12 @@ strong {
 }
 
 .contact-inf {
+  color: var(--white-color);
+}
+.contact-in {
   color: var(--secondary-color);
 }
-.contact-inf:hover{
+.contact-in:hover{
   color: var(--primary-color);
 }
 
