@@ -39,12 +39,12 @@
 -----------------------------------------*/
 :root {
   --white-color: #ffffff;
-  --primary-color:#EA6001;
+  --primary-color: #EA6001;
   --secondary-color: #0A2635;
   --section-bg-color: #f0f8ff;
   --site-footer-bg-color: #44525d;
   --custom-btn-bg-color: #597081;
-  --custom-btn-bg-hover-color:#EA6001;
+  --custom-btn-bg-hover-color: #EA6001;
   --dark-color: #000000;
   --p-color: #717275;
   --border-color: #e9eaeb;
@@ -152,6 +152,7 @@ a {
 }
 
 a:hover {
+
   color: var(--primary-color);
 }
 
@@ -742,10 +743,12 @@ strong {
 .contact-inf {
   color: var(--white-color);
 }
+
 .contact-in {
   color: var(--secondary-color);
 }
-.contact-in:hover{
+
+.contact-in:hover {
   color: var(--primary-color);
 }
 
@@ -1297,28 +1300,30 @@ strong {
 ============================ */
 
 .active {
-  color:   var(--primary-color ) !important;
+  color: var(--primary-color) !important;
 }
 
 
-.space-width{
-    margin-top: 18px !important;
-   
+.space-width {
+  margin-top: 18px !important;
+
 }
 
 
 @media screen and (max-width: 991px) {
-  .space-width{
+  .space-width {
     margin-top: 0 !important;
 
-}
-.skill{
-  margin-top: 5rem !important;
-}
-.newage-service{
-  margin-top: 18px !important;
+  }
 
-}
+  .skill {
+    margin-top: 5rem !important;
+  }
+
+  .newage-service {
+    margin-top: 18px !important;
+
+  }
 }
 
 
@@ -1361,6 +1366,7 @@ strong {
 }
 
 .box:hover {
-  background-color: var(--primary-color);;
+  background-color: var(--primary-color);
+  ;
   color: white !important;
 }
