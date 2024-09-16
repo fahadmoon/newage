@@ -33,37 +33,26 @@
 
         }
 
-        .circle-icon {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            background-color: #ffff;
-            color: white;
-            font-size: 24px;
+        .contact {
+            background-image: url("image/contact.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 60vh;
+            background-color: rgba(0, 9, 17, 0.6);
+            background-blend-mode: overlay;
+            padding: 20px !important;
+
         }
 
+        @media screen and (max-width: 981px) {
+            .phoneMargin {
+                margin-top: 13px !important;
+            }
 
-        .about_heading {
-            color: white;
-            display: flex;
-            align-self: center;
-            align-items: center;
-            align-content: center;
-            justify-content: center;
-            font-size: 50px;
-        }
-
-        .box {
-            background-color: #F8F8F8;
-            padding: 5rem;
-        }
-
-        .box:hover {
-            background-color: #007bff;
-            color: white;
+            .mapframe {
+                width: 350px !important;
+            }
         }
     </style>
 </head>
@@ -77,7 +66,7 @@
                 <div class="col-lg-8 col-12 d-flex flex-wrap">
                     <p class="d-flex me-4 mb-0">
                         <i class="bi-geo-alt me-2"></i>
-                        7820 W Capitol Ave #1305 Little Rock, AR 72203
+                        784 S. Clearwater Loop #4091 Post Falls, ID 83854
                     </p>
 
                     <p class="d-flex mb-0">
@@ -91,18 +80,21 @@
 
                 <div class="col-lg-3 col-12 ms-auto d-lg-block d-none">
                     <ul class="social-icon">
-                    <li class="social-icon-item">
-                        <a href="https://www.facebook.com/newagellc" class="social-icon-link bi-facebook" target="_blank"></a>
-                    </li>
+                        <li class="social-icon-item">
+                            <a href="https://www.facebook.com/newagellc" class="social-icon-link bi-facebook"
+                                target="_blank"></a>
+                        </li>
 
-                    <li class="social-icon-item">
-                        <a href="https://www.instagram.com/newage_dispatch" class="social-icon-link bi-instagram" target="_blank"></a>
-                    </li>
+                        <li class="social-icon-item">
+                            <a href="https://www.instagram.com/newage_dispatch" class="social-icon-link bi-instagram"
+                                target="_blank"></a>
+                        </li>
 
 
-                    <li class="social-icon-item">
-                        <a href="https://www.linkedin.com/company/newage-dispatch" class="social-icon-link bi-linkedin" target="_blank"></a>
-                    </li>
+                        <li class="social-icon-item">
+                            <a href="https://www.linkedin.com/company/newage-dispatch"
+                                class="social-icon-link bi-linkedin" target="_blank"></a>
+                        </li>
                     </ul>
                 </div>
 
@@ -126,23 +118,20 @@
                     <li class="nav-item">
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link " href="about.html">About</a>
-                    </li>
-
                     <li class="nav-item">
                         <a class="nav-link" href="services.html">Services</a>
                     </li>
 
-
+                    <li class="nav-item">
+                        <a class="nav-link" href="pricing&plan.html">Packages & Pricing</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="about.html">About</a>
+                    </li>
                     <li class="nav-item">
                         <a class="nav-link active" href="contact.html">Contact</a>
                     </li>
 
-                    <!-- <li class="nav-item ms-3">
-                        <a class="nav-link custom-btn custom-border-btn btn" href="">Contact</a>
-                    </li> -->
                 </ul>
             </div>
         </div>
@@ -151,18 +140,18 @@
     <div class="about_main">
         <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
             <ol class="breadcrumb pt-3 mx-4">
-                <li class="breadcrumb-item text-white"><a href="index.html" style="color: var(--primary-color);">Home</a></li>
-                <li class="breadcrumb-item" aria-current="page">Contact</li>
+                <li class="breadcrumb-item text-white"><a href="index.html"
+                        style="color: var(--primary-color);">Home</a></li>
+                <li class="breadcrumb-item" aria-current="page" style="color: var(--white-color);">Contact</li>
             </ol>
         </nav>
-        <div class="">
-            <h1 class="text-white about_heading mt-5 pt-5 mt-5">Contact Us</h1>
+        <div class="about_heading">
+            <h1 class="text-white "><span style="color: var(--primary-color);">Contact </span>Us</h1>
         </div>
     </div>
 
-
     <main>
-        <div class="container">
+        <!-- <div class="container">
             <div class="col-lg-12 col-12">
                 <h2 class="mb-3 mt-3 text-center" style="color: var(--primary-color);">Contact Information</h2>
             </div>
@@ -209,52 +198,128 @@
                     </div>
                 </div>
             </div>
-        </div>
-        
-        <!-- experience -->
-        <section class="experience section-padding">
+        </div> -->
+
+        <section class="mt-5">
             <div class="container">
                 <div class="row">
+                    <div class="col-lg-4 col-12 ms-auto mb-2 mb-lg-0 p-0 pt-5">
+                        <div class="contact-info-wrap featured-block d-flex justify-content-center align-items-center ">
+                            <div class="contact-inf mt-3 mb-3">
+                                <h4 class="mb-3" style="color: var(--secondary-color);">Contact Infomation</h4>
+
+                                <p class="d-flex mb-2 contact-in">
+                                    <i class="bi-geo-alt me-2"></i>
+                                    784 S. Clearwater Loop #4091 Post Falls, ID 83854
+                                </p>
+
+                                <p class="d-flex mb-2 contact-in">
+                                    <i class="bi-telephone me-2"></i>
+                                    <a href="tel: +1 208 928 3938" class="contact-in">
+                                        +1 208 928 3938                                    </a>
+                                </p>
+
+                                <p class="d-flex contact-in">
+                                    <i class="bi-envelope me-2"></i>
+                                    <a href="mailto:Info@newagedispatch.com" class="contact-in">
+                                        Info@newagedispatch.com
+                                    </a>
+                                </p>
+
+                                <a href="contact.html#map" class="custom-btn btn mt-3"
+                                    style="border: 1px  rgba(62, 3, 3, 0.2) solid;">Get Direction</a>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="col-lg-5 col-12 mx-auto">
-                        <form class="custom-form contact-form" action="#" method="post" role="form">
-                            <h2>Contact form</h2>
-
-                            <p class="mb-4">Or, you can just send an email:
-                                <a href="#"> Info@newagedispatch.com</a>
-                            </p>
-                            <div class="row">
-                                <div class="col-lg-6 col-md-6 col-12">
-                                    <input type="text" name="first-name" id="first-name" class="form-control"
-                                        placeholder="First Name" required>
-                                </div>
-
-                                <div class="col-lg-6 col-md-6 col-12">
-                                    <input type="text" name="last-name" id="last-name" class="form-control"
-                                        placeholder="Last Name" required>
-                                </div>
-                            </div>
-
-                            <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control"
-                                placeholder="Jackdoe@gmail.com" required>
-
-                            <textarea name="message" rows="5" class="form-control" id="message"
-                                placeholder="What can we help you?"></textarea>
-
-                            <button type="submit" class="form-control">Send Message</button>
-                        </form>
+                        <section class="mt-5 mb-5 " id="map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2685.3255961656664!2d-117.0121042!3d47.6975159!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5361dce0e3fc6871%3A0xf4f40a591a50f4fd!2s784%20Clearwater%20Loop%20%234091%2C%20Post%20Falls%2C%20ID%2083854%2C%20USA!5e0!3m2!1sen!2s!4v1705629802318!5m2!1sen!2s"
+                                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                                referrerpolicy="no-referrer-when-downgrade" class="mapframe"></iframe>
+                        </section>
                     </div>
 
                 </div>
             </div>
+
+
+            <!-- Contact Form -->
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6 px-5 py-5">
+                        <div class="contact-info-wrap featured-block d-flex justify-content-center align-items-center ">
+                            <div class="contact-inf mt-3 mb-3">
+                                <p>By providing my phone number to Newage Dispatch, I agree and acknowledge that Newage
+                                    Dispatch
+                                    may send text messages to my wireless phone number for any purpose. Message and data
+                                    rates
+                                    may apply. Message frequency will vary, and you will be able to Opt-out by replying
+                                    “STOP”.
+                                    For more information on how your data will be handled please visit <a
+                                        href="privacy.html">privacy policy</a>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-6">
+                        <form class="" id="contactForm">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <div class="form-group">
+                                        <label for="name">Name:</label>
+                                        <input type="text" class="form-control" id="name" aria-describedby="emailHelp"
+                                            placeholder="Enter Name" required>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="form-group phoneMargin">
+                                        <label for="contact">Phone No:</label>
+                                        <input type="text" class="form-control" id="contact"
+                                            aria-describedby="emailHelp" placeholder="Enter phone no" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group mt-3">
+                                <label for="email">Email:</label>
+                                <input type="email" class="form-control" id="email" aria-describedby="emailHelp"
+                                    placeholder="Enter email" required>
+                            </div>
+                            <div class="form-group mt-3">
+                                <label for="Description">Description</label>
+                                <textarea class="form-control" id="description" required cols="50"
+                                    style="height: 120px;"></textarea>
+                            </div>
+                            <div class="form-group mt-3">
+                                <input type="checkbox" name="agree" id="" required>
+                                <label for="agree">I agree</label>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary mt-3">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
         </section>
-        <section class="mt-5 mb-5 " id="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.173982861115!2d-92.36778312454166!3d34.7512098729018!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87d2a3f58a9d463f%3A0xf42e06eea61f1760!2s7820%20W%20Capitol%20Ave%20%231305%2C%20Little%20Rock%2C%20AR%2072205%2C%20USA!5e0!3m2!1sen!2s!4v1690046793030!5m2!1sen!2s" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </section>
+
+
     </main>
 
 
-    
+    <div class="contact mt-5">
+        <div class="contact_heading">
+            <h5 class="text-white text-center">Truck dispatch services available. Get a quote now! Fast, reliable, and
+                affordable
+                solutions.</h5> <br>
+
+        </div>
+
+    </div>
+
 
     <footer class="site-footer">
         <div class="container">
@@ -267,15 +332,20 @@
                     <h5 class="site-footer-title mb-3">Quick Links</h5>
 
                     <ul class="footer-menu">
-                        <li class="footer-menu-item"><a href="about.html" class="footer-menu-link">About Company</a></li>
+                        <li class="footer-menu-item"><a href="about.html" class="footer-menu-link">About Company</a>
+                        </li>
 
-                        <li class="footer-menu-item"><a href="services.html" class="footer-menu-link">Our Services</a></li>
+                        <li class="footer-menu-item"><a href="services.html" class="footer-menu-link">Our Services</a>
+                        </li>
+                        <li class="footer-menu-item"><a href="privacy.html" class="footer-menu-link">Our Privacy Policy</a>
+                        </li>
 
-                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Latest News</a></li>
+                        <li class="footer-menu-item"><a href="pricing&plan.html" class="footer-menu-link">Packages &
+                                Pricing</a></li>
 
                         <li class="footer-menu-item"><a href="contact.html" class="footer-menu-link">Contact Us</a></li>
 
-                        <li class="footer-menu-item"><a href="#" class="footer-menu-link">Company Achievement</a></li>
+                        <!-- <li class="footer-menu-item"><a href="#" class="footer-menu-link">Company Achievement</a></li> -->
                     </ul>
                 </div>
 
@@ -285,8 +355,8 @@
                     <p class="text-white d-flex mb-2">
                         <i class="bi-telephone me-2"></i>
 
-                        <a href="tel: +1 (501) 441-5130" class="site-footer-link">
-                            +1 (501) 441-5130
+                        <a href="tel: +1 208 928 3938" class="site-footer-link">
+                            +1 208 928 3938
                         </a>
                     </p>
 
@@ -299,7 +369,7 @@
 
                     <p class="text-white d-flex mt-3">
                         <i class="bi-geo-alt me-2"></i>
-                        7820 W Capitol Ave #1305 Little Rock, AR 72203
+                        784 S. Clearwater Loop #4091 Post Falls, ID 83854
                     </p>
 
                     <a href="contact.html#map" class="custom-btn btn mt-3">Get Direction</a>
@@ -312,22 +382,26 @@
                 <div class="row">
 
                     <div class="col-lg-6 col-md-7 col-12">
-                        <p class="copyright-text mb-0">Copyright © 2023 <a href="index.html"> Newage Dispatch</a> Transportation
-                            & Logistics Ltd.</p>
+                        <p class="copyright-text mb-0">Copyright © 2024 <a href="index.html"> Newage Dispatch</a>
+                            Transportation
+                            & Logistics LLC.</p>
                     </div>
 
                     <div class="col-lg-6 col-md-5 col-12 d-flex justify-content-center align-items-center mx-auto">
                         <ul class="social-icon">
                             <li class="social-icon-item">
-                                <a href="https://www.facebook.com/newagellc" class="social-icon-link bi-facebook" target="_blank"></a>
+                                <a href="https://www.facebook.com/newagellc" class="social-icon-link bi-facebook"
+                                    target="_blank"></a>
                             </li>
 
                             <li class="social-icon-item">
-                                <a href="https://www.instagram.com/newage_dispatch" class="social-icon-link bi-instagram" target="_blank"></a>
+                                <a href="https://www.instagram.com/newage_dispatch"
+                                    class="social-icon-link bi-instagram" target="_blank"></a>
                             </li>
 
                             <li class="social-icon-item">
-                                <a href="https://www.linkedin.com/company/newage-dispatch" class="social-icon-link bi-linkedin" target="_blank"></a>
+                                <a href="https://www.linkedin.com/company/newage-dispatch"
+                                    class="social-icon-link bi-linkedin" target="_blank"></a>
                             </li>
 
                         </ul>
@@ -337,8 +411,67 @@
             </div>
         </div>
     </footer>
+    <!-- Include Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.1.3/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.1.3/firebase-database-compat.js"></script>
 
-    <!-- JAVASCRIPT FILES -->
+    <!-- Your existing HTML code for the form -->
+
+    <script>
+        const firebaseConfig = {
+            apiKey: "AIzaSyDavl2c0jOvV_ffHyCMfsWZjeAAP44WNIY",
+            authDomain: "contactform-f485f.firebaseapp.com",
+            databaseURL: "https://contactform-f485f-default-rtdb.firebaseio.com",
+            projectId: "contactform-f485f",
+            storageBucket: "contactform-f485f.appspot.com",
+            messagingSenderId: "650025216203",
+            appId: "1:650025216203:web:215b14ee37ebeae14c934e"
+        };
+
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+
+        // Reference database
+        const contactFormDB = firebase.database().ref("contactForm");
+
+        document.getElementById("contactForm").addEventListener("submit", submitForm);
+
+        function submitForm(e) {
+            e.preventDefault();
+
+            var name = getElementVal('name');
+            var phoneNo = getElementVal('contact');
+            var email = getElementVal('email');
+            var description = getElementVal('description');
+            var date = new Date().toString(); // Update this line
+            saveMessages(name, phoneNo, email, description, date);
+        }
+
+        const saveMessages = (name, phoneNo, email, description, date) => {
+            var newContactForm = contactFormDB.push();
+            newContactForm.set({
+                name: name,
+                phoneNo: phoneNo,
+                email: email,
+                description: description,
+                date: date,
+            }).then(() => {
+                // Handle success, if needed
+                alert("Your message has been sent.");
+                location.reload();
+
+            }).catch((error) => {
+                // Handle errors, if any
+                console.error("Error saving data to Firebase:", error);
+            });
+        };
+
+        const getElementVal = (id) => {
+            var element = document.getElementById(id);
+            return element ? element.value : '';
+        };
+    </script>
+<!-- JAVASCRIPT FILES -->
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.sticky.js"></script>
